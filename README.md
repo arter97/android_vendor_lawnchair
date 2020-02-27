@@ -13,8 +13,4 @@ In case of Paranoid Android, this can be done by appending the following at `ven
 
 `$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)`
 
-**3. Remove existing launcher from the build**
-
-In case of Paranoid Android, this can be done by removing `ParanoidQuickStep` from `vendor/pa/config/common.mk` and `vendor/pa/config/packages.mk`.
-
-**4. Build Android**
+**3. Build Android**
