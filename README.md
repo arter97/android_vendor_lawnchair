@@ -15,6 +15,8 @@ In case of Paranoid Android, this can be done by appending the following at `ven
 
 **3. Remove existing launcher from the build**
 
-In case of Paranoid Android, this can be done by removing `ParanoidQuickStep` from `vendor/pa/config/common.mk` and `vendor/pa/config/packages.mk`.
+`ParanoidQuickStep`, `Launcher3QuickStep`, `PixelLauncher` and `TrebuchetQuickStep` packages are overriden from `priv-app/Lawnchair/Android.mk`.
+
+If your existing launcher uses a different name, either remove it from the build manually or post a pull-request.
 
 **4. Build Android**
