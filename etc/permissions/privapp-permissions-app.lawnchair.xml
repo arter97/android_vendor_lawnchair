@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
     <privapp-permissions package="app.lawnchair">
+        <permission name="android.permission.INTERNET"/>
         <permission name="android.permission.PACKAGE_USAGE_STATS"/>
         <permission name="android.permission.FOREGROUND_SERVICE"/>
         <permission name="com.google.android.apps.nexuslauncher.permission.QSB"/>
@@ -10,6 +11,7 @@
         <permission name="android.permission.QUERY_ALL_PACKAGES"/>
         <permission name="android.permission.START_TASKS_FROM_RECENTS"/>
         <permission name="android.permission.REMOVE_TASKS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="android.permission.MANAGE_ACTIVITY_TASKS"/>
         <permission name="android.permission.STATUS_BAR"/>
         <permission name="android.permission.STOP_APP_SWITCHES"/>
@@ -17,9 +19,8 @@
         <permission name="android.permission.READ_FRAME_BUFFER"/>
         <permission name="android.permission.MANAGE_ACCESSIBILITY"/>
         <permission name="android.permission.MONITOR_INPUT"/>
-        <permission name="app.lawnchair.permission.HOTSEAT_EDU"/>
+        <permission name="android.permission.ALLOW_SLIPPERY_TOUCHES"/>
         <permission name="android.permission.SYSTEM_APPLICATION_OVERLAY"/>
-        <permission name="android.permission.INTERNET"/>
         <permission name="android.permission.CALL_PHONE"/>
         <permission name="android.permission.SET_WALLPAPER"/>
         <permission name="android.permission.SET_WALLPAPER_HINTS"/>
@@ -30,8 +31,8 @@
         <permission name="android.permission.READ_DEVICE_CONFIG"/>
         <permission name="android.permission.EXPAND_STATUS_BAR"/>
         <permission name="android.permission.ROTATE_SURFACE_FLINGER"/>
-        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="app.lawnchair.permission.READ_SETTINGS"/>
         <permission name="app.lawnchair.permission.WRITE_SETTINGS"/>
+        <permission name="app.lawnchair.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     </privapp-permissions>
 </permissions>
